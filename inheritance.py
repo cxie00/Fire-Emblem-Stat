@@ -36,7 +36,7 @@ def inheritance():
     stat = input("What stat do you wish to calculate: " ).lower()
     if stat not in direct:
         print("Sorry, '" + stat + "' is not recognized. Please check spelling!")
-        inheritanceC()
+        inheritance()
     
     statIndex = direct[stat]
     child0 = input("Whose " + stat + " stat will we calculate?: ")
@@ -56,4 +56,4 @@ def inheritance():
         print(result)
     else:
         print("'" + child + "' is not recognized. Please try again.")
-        inheritanceC()
+        inheritance()
