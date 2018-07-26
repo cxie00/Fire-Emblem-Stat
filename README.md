@@ -1,6 +1,6 @@
 # Fire-Emblem-Stat
 By: Xie
-Calculate a child's stat when they are recruited
+Calculate a child's base stat
 Morgan is unincluded because their stats vary a lot... maybe in a future patch
 
 Change log:
