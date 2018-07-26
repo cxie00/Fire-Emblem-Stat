@@ -1,5 +1,5 @@
 #Calculate stats of Fire Emblem: Awakening children
-#Currently only the strength stat lol
+#Can do any one stat
 """(mother's current stats - mother's class base stats) +
 (father's current stats - father's class base stats) +
 (child's absolute base stats)
