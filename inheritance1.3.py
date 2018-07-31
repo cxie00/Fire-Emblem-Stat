@@ -38,14 +38,15 @@ def inheritance():
     stat = input("What stat do you wish to calculate: " ).lower()
     if stat in statDict:
         statIndex = statDict[stat]
-        child(statIndex, stat)
+        child1(statIndex, stat)
     else:
         print(stat + " is unrecognized. Try again.")
         inheritance()
 
 
-def child(statIndex, stat):
+def child1(statIndex, stat):
     child0 = input("Whose " + stat + " stat will we calculate?: ")
+    print(statIndex, stat)
     child = child0.lower()
 
     if child in absolute:
@@ -65,7 +66,7 @@ def child(statIndex, stat):
     
     else:
         print("'" + child + "' is not recognized. Please try again.")
-        child(statIndex, stat)
+        child1(statIndex, stat)
 
         
 def dream():
@@ -74,5 +75,3 @@ def dream():
     print(isinstance(x, int))
     print(isinstance(y, int))
     
-
-
