@@ -17,5 +17,4 @@ Change log:
     Added error messages for unrecognized user inputs
     Mothers added for personalization
       It's cuter this way...
-07/31/18: efficient user-error checking!
-   
+07/31/18: efficient user-error checking! If the user put in an unrecognized name for the child, program will ask for child again instead of starting over!
