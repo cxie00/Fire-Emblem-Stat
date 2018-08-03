@@ -46,7 +46,6 @@ def inheritance():
 
 def child1(statIndex, stat):
     child0 = input("Whose " + stat + " stat will we calculate?: ")
-    print(statIndex, stat)
     child = child0.lower()
 
     if child in absolute:
